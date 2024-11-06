@@ -82,7 +82,7 @@ git push -u origin master --force
 ```
 В той же директории `/ansible` создаем файл `requirements.yml` для подключения к гиту:
 ```
-- src: https://gitlab.com/andrey1707/ansible-docker-role.git
+- src: https://gitlab.com/devops9420745/ansible-docker-role
   scm: git
   version: master
   name: Docker
